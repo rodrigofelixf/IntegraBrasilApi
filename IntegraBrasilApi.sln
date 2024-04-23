@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegraBrasil.Api", "IntegraBrasil.Api", "{9C51D41A-B37C-43F0-B9E4-0AFEFE5F8115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegraBrasil.Api", "IntegraBrasil.Api\IntegraBrasil.Api.csproj", "{F3B439ED-C8DD-4792-8F2C-F8C9BABD08F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegraBrasil.Business", "IntegraBrasil.Business", "{F7203706-4825-4CAC-A10E-EB6D9F184835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegraBrasil.Business", "IntegraBrasil.Business\IntegraBrasil.Business.csproj", "{87EAC58B-AF32-4AAE-9F2E-211616B91DEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegraBrasil.Model", "IntegraBrasil.Model", "{115BB7C0-43D1-4DCC-A3F9-AC077B0C0AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegraBrasil.Model", "IntegraBrasil.Model\IntegraBrasil.Model.csproj", "{66182FD3-B71A-4809-AB91-9AB3525E2F4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3B439ED-C8DD-4792-8F2C-F8C9BABD08F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B439ED-C8DD-4792-8F2C-F8C9BABD08F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B439ED-C8DD-4792-8F2C-F8C9BABD08F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B439ED-C8DD-4792-8F2C-F8C9BABD08F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87EAC58B-AF32-4AAE-9F2E-211616B91DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87EAC58B-AF32-4AAE-9F2E-211616B91DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87EAC58B-AF32-4AAE-9F2E-211616B91DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87EAC58B-AF32-4AAE-9F2E-211616B91DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66182FD3-B71A-4809-AB91-9AB3525E2F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66182FD3-B71A-4809-AB91-9AB3525E2F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66182FD3-B71A-4809-AB91-9AB3525E2F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66182FD3-B71A-4809-AB91-9AB3525E2F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3B439ED-C8DD-4792-8F2C-F8C9BABD08F8} = {9C51D41A-B37C-43F0-B9E4-0AFEFE5F8115}
+		{87EAC58B-AF32-4AAE-9F2E-211616B91DEE} = {F7203706-4825-4CAC-A10E-EB6D9F184835}
+		{66182FD3-B71A-4809-AB91-9AB3525E2F4E} = {115BB7C0-43D1-4DCC-A3F9-AC077B0C0AEC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90958CA4-B1DC-4FB0-98B8-CBCC95610E2C}
+	EndGlobalSection
+EndGlobal
